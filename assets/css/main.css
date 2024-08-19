@@ -2,3 +2,43 @@ video {
     width: 100%;
     height: auto;
 }
+
+/* Button Styles */
+#webFormSubmitButton {
+    background-color: #ed6524;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#webFormSubmitButton:hover {
+    background-color: #f07c45;
+}
+
+#webFormSubmitButton:active {
+    background-color: #f18450;
+}
+
+/* General Input Styles */
+input.text {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Form Container */
+.af-element {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
